@@ -10,8 +10,8 @@ RESET = '\033[0m'
 
 # Inisialisasi client OpenAI ke 9Router lokal
 client = OpenAI(
-    base_url="http://localhost:20128/v1",
-    api_key="sk-7ac57b36ea47ff09-0tgtoq-b50eac8c"
+    base_url="BASE URL 9ROUTER DIHALAMAN ENDPOINT & KEY BAGIAN Local",
+    api_key="API KEY 9ROUTER DIHALAMAN ENDPOINT & KEY BAGIAN APIKEYS"
 )
 
 # Fungsi untuk menguji satu model (akan dijalankan oleh masing-masing thread)

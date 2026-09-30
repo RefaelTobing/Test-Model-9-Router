@@ -2,8 +2,8 @@ from openai import OpenAI
 
 # Inisialisasi client ke 9Router lokal
 client = OpenAI(
-    base_url="http://localhost:20128/v1",
-    api_key="sk-7ac57b36ea47ff09-0tgtoq-b50eac8c" 
+    base_url="BASE URL 9ROUTER DI HALAMAN ENDPOINT & KEY DIBAGIAN LOCAL ",
+    api_key="API 9ROUTER DIHALAMAN ENDPOINT & KEY DIBAGIAN API KEYS" 
 )
 
 def test_models():
